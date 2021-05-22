@@ -7,7 +7,10 @@ const Foo = conn.define('foo', {
     type: UUID,
     defaultValue: UUIDV4
   },
-  name: STRING
+  name: {
+    type: STRING,
+    allowNull: false
+  }
 });
 
 module.exports = Foo;

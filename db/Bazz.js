@@ -10,4 +10,8 @@ const Bazz = conn.define('bazz', {
   name: STRING
 });
 
+Bazz.destructure = ({ name })=> {
+  return { name };
+}
+
 module.exports = Bazz;

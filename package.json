@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "inflection": "^1.13.1",
     "pg": "^8.6.0",
     "sequelize": "^6.6.2"
   },
